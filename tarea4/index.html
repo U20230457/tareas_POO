@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante de comida rapida</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <fieldset>
+                <legend>Men&uacute; de comida</legend>
+                <label for="">Comida rapida</label>
+                <select name="" id="comida">
+                    <option value="" selected disabled>Seleccione su comida</option>
+                    <option value="hamburguesa">Hamburguesa con papas</option>
+                    <option value="tacos">Tacos de birria</option>
+                    <option value="nachos">Nachos</option>
+                </select>
+
+                <input type="number" name="" id="cantidadComida" min="0" max="15" placeholder="Cantidad">
+
+                <label for="">Bebidas</label>
+                <select name="" id="bebida">
+                    <option value="" selected disabled>Seleccione su bebida</option>
+                    <option value="coca-cola">Coca-Cola</option>
+                    <option value="tropical">Tropical</option>
+                    <option value="fanta">Fanta</option>
+                    <option value="sprite">Sprite</option>
+                    <option value="fuze-tea">Fuze tea</option>
+                </select>
+
+                <input type="number" name="" id="cantidadBebida" min="0" max="15" placeholder="Cantidad">
+
+                <label for="" id="precio"></label>
+
+                <button type="button" id="button">Realizar pedido</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>

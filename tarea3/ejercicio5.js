@@ -21,4 +21,4 @@ const calculadora = new Calculadora();
 
 const resultado = calculadora.operacion("+", 10, 5);
 
-console.log(`El resultado de la operación es: ${resultado}`);
+console.log(`El resultado de la operación es: ${resultado}`)
