@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información personal</title>
+  <link rel="stylesheet" href="./css/registro.css">
+</head>
+<body>
+  <div class="container">
+    <div class="informacion-form">
+      <h1>Información personal</h1>
+      <form action="#">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo">
+        
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+        
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+          <option value="">Seleccione su género</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+        </select>
+
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento" name="departamento" placeholder="Ingrese su departamento">
+        
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" placeholder="Ingrese su ciudad">
+        
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su número de teléfono">
+        
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" placeholder="Ingrese una breve descripción sobre usted"></textarea>
+        
+        <button type="button"  id="btn-guardar-cambios">Guardar cambios</button>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="./js/editar.js"></script>
+</html>
